@@ -1,0 +1,40 @@
+import { TypeCart } from "./types";
+
+export const CART_DATA: TypeCart[] = [
+  {
+    id: "123",
+    title: "iPhone 15 Pro Max 256GB",
+    description: "Brand New, 256GB, Deep Purple, Apple ",
+    price: 1009,
+    currency: "$",
+    quantity: 1,
+    image: "/images/iphone.png",
+    label: "bidding",
+    biddingRound: 1234555,
+    status: "available",
+  },
+  {
+    id: "124",
+    title: "iPhone 15 Pro Max 256GB",
+    description: "Brand New, 256GB, Deep Purple, Apple ",
+    price: 2009,
+    currency: "$",
+    quantity: 1,
+    image: "/images/iphone.png",
+    label: "buy",
+    biddingRound: 1234555,
+    status: "available",
+  },
+  {
+    id: "125",
+    title: "iPhone 15 Pro Max 256GB",
+    description: "Brand New, 256GB, Deep Purple, Apple ",
+    price: 3009,
+    currency: "$",
+    quantity: 1,
+    image: "/images/iphone.png",
+    label: "unavailable",
+    biddingRound: 1234555,
+    status: "unavailable",
+  },
+];
